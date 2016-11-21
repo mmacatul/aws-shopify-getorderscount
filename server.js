@@ -11,7 +11,7 @@ app.get('/GetOrdersCount', function (req, res) {
 });
 
 var ip = "54.200.234.170";
-var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+var port = 80;
 
 http.listen(port, ip, function () {
     console.log('listening on *: ' + port);
