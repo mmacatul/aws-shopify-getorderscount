@@ -10,7 +10,7 @@ app.get('/GetOrdersCount', function (req, res) {
     }); 
 });
 
-var ip =  process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var ip = "54.200.234.170";
 var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 http.listen(port, ip, function () {
