@@ -9,3 +9,10 @@ app.get('/GetOrdersCount', function (req, res) {
         res.send(body);
     }); 
 });
+
+var ip = "127.0.0.1";
+var port = 3000;
+
+http.listen(port, ip, function () {
+    console.log('listening on *: ' + port);
+});
