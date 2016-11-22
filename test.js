@@ -9,4 +9,6 @@ http.createServer(function (request, response) {
         });
         response.end('Hello HTTP!');
     });
-}).listen(8080);
+}).listen(8080, function () {
+    console.log('listening on *: ' + port);
+});
