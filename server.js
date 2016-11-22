@@ -11,7 +11,7 @@ app.get('/GetOrdersCount', function (req, res) {
 });
 
 var ip = "127.0.0.1";
-var port = 8080;
+var port = 80;
 
 http.listen(port, ip, function () {
     console.log('listening on *: ' + port);
